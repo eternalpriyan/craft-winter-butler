@@ -94,7 +94,7 @@ Reads monthly summaries + recent 2 days' notes + unfinished tasks → Generates 
 ## 🔧 Troubleshooting
 
 ### "Permission denied" when running script
-**Fix:** Make executable: `chmod +x install_and_run.command`
+**Fix:** Make executable: `chmod +x install_and_run.command` or in MacOS, right click -> Open -> Receive a warning -> Open again.
 
 ### "Config file not found"
 **Fix:** Make sure you're in the correct directory. The script expects `config.json` in the same folder.
