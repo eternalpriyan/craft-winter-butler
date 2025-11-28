@@ -38,12 +38,13 @@ Reads monthly summaries + recent 2 days' notes + unfinished tasks → Generates 
 
 **For Monthly Logs:**
 1. In Craft, create new document: **"Monthly Logs"**
-2. Click **Share** → **Export** → **API**
+2. Go to Imagine Tab and select New API Connection
+2. Connect Selected Documents -> Select the Document
 3. Copy the URL (looks like: `https://connect.craft.do/links/XXXXX/api/v1`)
 
 **For Daily Notes:**
-1. Go to your Daily Notes space in Craft
-2. Click **Share** → **Export** → **API**
+1. Go to Imagine Tab and select New API Connection
+2. Connect Daily Notes and Tasks
 3. Copy the URL
 
 **Get Gemini Key:**
@@ -85,7 +86,7 @@ Reads monthly summaries + recent 2 days' notes + unfinished tasks → Generates 
 - Evening creates nothing (writes only to monthly doc)
 
 **In Monthly Logs:**
-- Auto-created "November 2025" sub-page
+- Auto-created "Month Year" sub-page
 - One line per day: **"Thursday 27:** Met Nicole Laneng, taught Core..."
 
 ---
@@ -145,7 +146,7 @@ Edit `config.json`:
 
 ## 📝 How to Submit Feedback
 
-Found a bug? Email details to [your email] or post in Craft Slack #winter_challenge
+Found a bug? Email details to priyan@priyan.yoga or post in Craft Slack #winter_challenge
 
 ---
 
