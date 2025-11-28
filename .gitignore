@@ -1,0 +1,24 @@
+# System
+.DS_Store
+.MacOS
+
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Logs
+*.log
+*.txt
+!requirements.txt
+!README.md
+!morning_log.txt
+!morning_error.txt
+!evening_log.txt
+!evening_error.txt
+
+# Artifacts
+*.zip
+
+# User Config (Optional: if you want to keep real keys private, uncomment below)
+# config.json
